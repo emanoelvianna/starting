@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/formulario.css">
+    <title>Cadastro de contatos</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="contact" action="" method="post">
+            <h3>Quick Contact</h3>
+            <fieldset>
+                <input placeholder="Your name" type="text" id="name" tabindex="1" required>
+                <input placeholder="Your Email Address" type="email" id="email"  tabindex="2" required>
+                <input placeholder="Your Phone Number" type="tel" id="phone"  tabindex="3" required>
+                <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                <button name="submit" type="submit" id="contact-submit" onclick="myFunction()">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="src/script.js"></script>
+</body>
+
+</html>
