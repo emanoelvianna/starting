@@ -1,4 +1,6 @@
-function myFunction() {
+function register() {
     let name = document.getElementById('name').value;
-    alert(`Obrigado por entrar em contato ${name}.`)
+    if(name.length > 0) {
+        alert(`Cadastro de ${name} realizado com sucesso!`);
+    }
 }
