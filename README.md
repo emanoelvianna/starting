@@ -16,4 +16,4 @@ Neste projeto vamos estar utilizando as seguintes tecnologias:
 
 Para desenvolver esse projeto recomendamos você configurar um ambiente de desenvolvimento (caso já não tenha preparado), para isso você pode seguir as seguintes instruções abaixo:
 
-- [ ] Instalar/baixar a IDE de desenvolvimento Visual Studio Code em: https://code.visualstudio.com/download. Caso você esteja usando o Linux você pode executar o comando <code>sudo snap install -classic code</code> para realizar a instalação da ferramenta.
+- [ ] Instalar/baixar a IDE de desenvolvimento Visual Studio Code em: https://code.visualstudio.com/download. Caso você esteja usando o Linux você pode executar o comando <code>sudo snap install --classic code</code> para realizar a instalação da ferramenta.
